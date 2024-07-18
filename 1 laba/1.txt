@@ -1,0 +1,17 @@
+print('Enter 3 numbers')
+a = int(input())
+b = int(input())
+c = int(input())
+
+if a > b and a > c:
+    print('MAX:', a)
+elif b > a and b > c:
+    print('MAX:', b)
+else:
+    print('MAX:', c)
+if a < b and a < c:
+    print('MIN:', a)
+elif b < a and b < c:
+    print('MIN:', b)
+else:
+    print('MIN:', c)
